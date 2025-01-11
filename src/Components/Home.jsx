@@ -16,7 +16,7 @@ const Home = () => {
         <div className="noise" />
         <div className="grid grid-cols-3 gap-2 md:grid-cols-4 md:gap-4 my-5 container mx-auto xl:px-20">
           {/* ABOUT ME CARD */}
-          <div className="relative col-span-3 aspect-square md:aspect-auto md:row-span-2 bg-[#2e2b2b69] rounded-3xl overflow-hidden">
+          <div className="relative col-span-3 aspect-square md:aspect-auto md:row-span-2 bg-[#c9272725] rounded-3xl overflow-hidden">
             <div className="h-full  absolute  p-4 md:p-8 flex flex-col justify-start  md:justify-end">
               <img
                 className="w-52 h-52 mb-4 rounded-full dark:bg-gray-500 aspect-auto"

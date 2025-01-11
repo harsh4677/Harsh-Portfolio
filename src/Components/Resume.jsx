@@ -318,15 +318,15 @@ const Resume = () => {
           <img
             src={Harsh}
             alt="Harsh Salve"
-            className="w-32 h-32 mx-auto rounded-full shadow-md"
+            className="w-40 h-40 mx-auto rounded-full shadow-md"
           />
           <div className="text-center mt-4">
             <h1 className="text-xl font-semibold text-gray-800">Harsh Salve</h1>
-            <p className="text-sm text-gray-600">Software Engineer</p>
-            <p className="text-xs text-gray-500">harshsalve2782003@gmail.com</p>
+            <p className="text-base font-medium text-gray-600">Software Engineer</p>
+            <p className="text-sm font-medium text-gray-500">harshsalve2782003@gmail.com</p>
           </div>
           <div className="mt-6 space-y-4">
-            <div className="flex items-center text-sm text-gray-600">
+            <div className="flex items-center text-base font-bold text-gray-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-5 h-5 mr-2"
@@ -337,7 +337,7 @@ const Resume = () => {
               </svg>
               harshsalve2782003@gmail.com
             </div>
-            <div className="flex items-center text-sm text-gray-600">
+            <div className="flex items-center text-base font-bold text-gray-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-5 h-5 mr-2"
@@ -349,7 +349,7 @@ const Resume = () => {
             </div>
             <a
               href="https://www.linkedin.com/in/harsh-salve-b22991256/"
-              className="flex items-center text-sm text-blue-600 hover:text-blue-800"
+              className="flex items-center text-base font-semibold text-blue-600 hover:text-blue-800"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -366,7 +366,7 @@ const Resume = () => {
         {/* Main Section */}
         <section className="md:w-2/3 bg-white shadow-md rounded-lg p-6">
           <h1 className="text-2xl font-bold text-gray-800 mb-4">Summary</h1>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-700 mb-4">
             I enjoy turning abstract ideas into tangible solutions through
             coding. Forever on the hunt for the most streamlined solutions to
             problems, while keeping the elegance of code a top priority.
@@ -465,7 +465,7 @@ const Resume = () => {
                  <div className="mt-1">
                    <div>
                      <i className="bx bx-buildings" style={{ color: "#666" }} />
-                     <small className="text-base text-gray-700">
+                     <small className="text-base font-medium text-gray-700">
                        Renan Partners (Hyderabad)
                      </small>
                    </div>
@@ -474,20 +474,20 @@ const Resume = () => {
                       className="bx bx-calendar text-sm"
                       style={{ color: "#666" }}
                     />
-                    <small className="text-sm text-gray-600">
+                    <small className="text-base font-medium text-gray-500">
                       Jan 2025 - Present
                     </small>
                   </div>
-                  <div className="text-gray-500">
+                  <div className="font-normal text-gray-700">
                     <small>
-                      <ul className="list-disc">
+                      <ul className="list-disc font-medium text-gray-700">
                         <li>Part of the Central Implementation Group</li>
-                        <li>
+                        <li className="font-medium text-gray-700">
                           Worked on iforms, custom hooks with helpdesk
                           attachment and Troubleshoot module using Java and
                           Restful Api Architecture
                         </li>
-                        <li>
+                        <li className="font-medium text-gray-700">
                           Successfully deployed programs, actively evaluated
                           user feedback with Javascipt custom Validation
                         </li>
@@ -500,7 +500,7 @@ const Resume = () => {
           </div>
           <div className="mx-4">
             <h1 className="mb-4 text-2xl text-gray-700 font-bold">
-              Co-Cirriculars:
+              Co-Curriculars:
             </h1>
             <ul className="list-disc text-md">
               <li className="mb-2">
