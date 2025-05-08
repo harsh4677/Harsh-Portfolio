@@ -288,6 +288,7 @@
 
 // export default Resume;
 
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import "../App.css";
@@ -466,7 +467,7 @@ const Resume = () => {
                    <div>
                      <i className="bx bx-buildings" style={{ color: "#666" }} />
                      <small className="text-base font-medium text-gray-700">
-                       Renan Partners (Hyderabad)
+                       Renan Partners (California, US)
                      </small>
                    </div>
                    <div>
@@ -479,20 +480,23 @@ const Resume = () => {
                     </small>
                   </div>
                   <div className="font-normal text-gray-700">
-                    <small>
-                      <ul className="list-disc font-medium text-gray-700">
-                        <li>Part of the Central Implementation Group</li>
-                        <li className="font-medium text-gray-700">
-                          Worked on iforms, custom hooks with helpdesk
-                          attachment and Troubleshoot module using Java and
-                          Restful Api Architecture
-                        </li>
-                        <li className="font-medium text-gray-700">
-                          Successfully deployed programs, actively evaluated
-                          user feedback with Javascipt custom Validation
-                        </li>
-                      </ul>
-                    </small>
+                    <ul className="list-disc pl-5 space-y-2">
+                      <li className="text-gray-700">
+                        <span className="font-medium">Developed a responsive Reports page</span> with dynamic data visualization (React/Django) to showcase project outcomes, <span className="font-medium">improving user engagement by 30%</span>.
+                      </li>
+                      <li className="text-gray-700">
+                        <span className="font-medium">Customized Django Admin Panel</span> with workflow-specific filters, bulk actions, and automated reporting, <span className="font-medium">reducing admin task time by 40%</span>.
+                      </li>
+                      <li className="text-gray-700">
+                        <span className="font-medium">Built a secure user invitation system</span> with role-based access control (RBAC) for multi-workspace collaboration, <span className="font-medium">streamlining onboarding by 50%</span>.
+                      </li>
+                      <li className="text-gray-700">
+                        <span className="font-medium">Enhanced UI/UX</span> with animations (Framer Motion/GSAP) and design refinements, <span className="font-medium">achieving 95% alignment with Figma prototypes</span>.
+                      </li>
+                      <li className="text-gray-700">
+                        <span className="font-medium">Built full-stack features</span> from scratch with end-to-end implementation.
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </li>
